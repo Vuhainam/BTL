@@ -1,0 +1,13 @@
+input[type="text"] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    transition:0.6s ease-in-out;
+  }
+  input[type="text"]:focus{
+    width:300px; 
+    background-color: lightpink;
+}
